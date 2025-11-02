@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Template simples para criar um bucket S3 para o Desafio 4.
+Resources:
+  MyS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: desafiodehoje-larissa-iac
+      AccessControl: Private
